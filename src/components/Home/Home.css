@@ -58,11 +58,12 @@
   color: #fff;
   transition: 0.3s ease-out;
   max-height: auto;
-  
+  border: 3px solid #fff;
+  border-radius: 50%;
 }
 
 .home_link:hover {
-  scale: 110%;
+  scale: 90%;
   color:blueviolet
 }
 
