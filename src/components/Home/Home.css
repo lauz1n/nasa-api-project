@@ -1,0 +1,69 @@
+@font-face {
+  font-family: R-Gro-Wide;
+  src: url(../../assets//Fonts/RightGrotesk-Medium.otf);
+}
+
+@font-face {
+  font-family: R-Gro-Spatial;
+  src: url(../../assets//Fonts/RightGrotesk-SpatialBlack.otf);
+}
+@font-face {
+  font-family: R-Gro-Compact;
+  src: url(../../assets//Fonts/RightGrotesk-CompactBlack.otf);
+}
+
+.home_bg {
+  background-image: url(../../assets/digital-universe-galaxy-1920x1080.jpg);
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.home_title h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'R-Gro-Spatial';
+  color: #fff;
+  font-size: 100px;
+  line-height: 120px;;
+  flex: 1;
+  margin-top: 150px;
+}
+
+.home_paragraph {
+  text-align: center;
+  font-size: 100px;
+  line-height: 120px;
+  font-family: 'R-Gro-Spatial';
+  color: #fff;
+  margin-top: -30px;
+}
+
+.home_link_container {
+  margin: 40px auto;
+  display: flex;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+
+.home_link {
+  display: flex;
+  justify-content: center;
+  font-size: 120px;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  color: #fff;
+  transition: 0.3s ease-out;
+  max-height: auto;
+  
+}
+
+.home_link:hover {
+  scale: 110%;
+  color:blueviolet
+}
+
+
