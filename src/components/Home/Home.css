@@ -66,4 +66,35 @@
   color:blueviolet
 }
 
+@media screen and (max-width: 900px) {
+  .home_title h1,
+  .home_paragraph {
+    font-size: 68px;
+  }
+}
 
+@media screen and (max-width: 550px) {
+  .home_title h1,
+  .home_paragraph {
+    font-size: 38px;
+    line-height: 80px;
+  }
+}
+
+@media screen and (max-width: 307px) {
+  .home_title h1,
+  .home_paragraph {
+    font-size: 18px;
+  }
+}
+
+
+
+
+
+@media screen and (max-width: 550px) {
+
+  .home_link {
+    font-size: 68px;
+  }
+}
